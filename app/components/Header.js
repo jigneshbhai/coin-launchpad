@@ -10,7 +10,7 @@ function Header({ account, setAccount }) {
 
   return (
     <header>
-      <p className="brand">Jigs.Fun</p>
+      <h1 className="brand">Drop_Coin</h1>
 
       {account ? (
         <button onClick={connectHandler} className="btn--fancy">
